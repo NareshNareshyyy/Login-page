@@ -1,0 +1,71 @@
+.container{
+    background: url(images/windows\ 11\ light.jpg) no-repeat   fixed;
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+    padding-bottom: 730px;
+    text-align: center;
+    border-radius: 30px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    border: red  solid 4px;
+
+}
+
+p{
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration-line: underline;
+
+}
+
+.form{
+    background-color: skyblue;
+    top: 40%;
+    left: 15%;
+    transform:translate( -50%,-40%);
+    position: absolute;
+    box-sizing: border-box;
+    border: red solid 3px;
+    border-radius: 20px;
+    padding-top: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 70px;
+
+}
+
+.user{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -10%;
+    left: calc(50% - 50px);
+
+}
+
+input[type="text"],input[ type="password"],input[type="email"], input[type="number"]
+{
+    outline: red solid 2px;
+    border-radius: 6px ;
+    border: oldlace;
+}
+
+input[type="submit"]:hover
+{
+    cursor: pointer;
+    background-color: skyblue;
+}
+
+input[type="submit"]
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    background-color: white;
+    border: red solid 3px;
+   
+}
